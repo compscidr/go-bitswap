@@ -1,4 +1,4 @@
-module github.com/ipfs/go-bitswap
+module github.com/compscidr/go-bitswap
 
 require (
 	github.com/benbjohnson/clock v1.1.0
@@ -34,4 +34,4 @@ require (
 
 go 1.16
 
-replace github.com/ipfs/go-bitswap => github.com/compscidr/go-bitswap v0.4.0
+replace github.com/compscidr/go-bitswap => github.com/compscidr/go-bitswap v0.4.0

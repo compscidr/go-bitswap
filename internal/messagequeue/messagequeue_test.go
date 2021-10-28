@@ -10,12 +10,12 @@ import (
 	"time"
 
 	"github.com/benbjohnson/clock"
-	"github.com/ipfs/go-bitswap/internal/testutil"
-	pb "github.com/ipfs/go-bitswap/message/pb"
+	"github.com/compscidr/go-bitswap/internal/testutil"
+	pb "github.com/compscidr/go-bitswap/message/pb"
 	cid "github.com/ipfs/go-cid"
 
-	bsmsg "github.com/ipfs/go-bitswap/message"
-	bsnet "github.com/ipfs/go-bitswap/network"
+	bsmsg "github.com/compscidr/go-bitswap/message"
+	bsnet "github.com/compscidr/go-bitswap/network"
 	peer "github.com/libp2p/go-libp2p-core/peer"
 	"github.com/libp2p/go-libp2p/p2p/protocol/ping"
 )

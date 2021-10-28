@@ -33,3 +33,5 @@ require (
 )
 
 go 1.16
+
+replace github.com/ipfs/go-bitswap => github.com/compscidr/go-bitswap v0.4.0
